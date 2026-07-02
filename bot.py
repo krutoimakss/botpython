@@ -14,7 +14,7 @@ from handlers import private, group_menu, moderation
 async def main():
     logging.basicConfig(level=logging.INFO)
 
-    if not BOT_TOKEN or BOT_TOKEN == "ВСТАВЬТЕ_СЮДА_ТОКЕН_БОТА":
+    if not BOT_TOKEN or BOT_TOKEN == "8551854797:AAE5AehzgsWiq4bt2d-DawEDX4qFtVg8HnA":
         raise RuntimeError(
             "Не задан BOT_TOKEN. Укажите его в config.py или переменной окружения BOT_TOKEN."
         )
